@@ -1,5 +1,10 @@
 Python script to make a gif from a sequence.
 ----
+
+run:
+
+python makegif.py [arguments]
+
 Takes 5 arguments
 
 -Folder to get sequence from
@@ -8,3 +13,7 @@ Takes 5 arguments
 -File name for resulting gif, without the extension
 -maximum size in x
 -maximum size in y
+
+ie:
+
+python makegif.py /seq /seq newgif 256 256
