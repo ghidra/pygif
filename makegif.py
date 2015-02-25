@@ -1,3 +1,4 @@
+import sys
 import pygif
 
 def main(kwargs):
