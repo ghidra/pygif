@@ -9,10 +9,8 @@ from os.path import isfile, join
 
 import subprocess
 
-#i need to consider exr files
-#just use rvio to deal with those
-#https://docs.python.org/2/library/subprocess.html
-#rvio file.*.exr -o file.#.jpg
+#i need to consider gamma correction on linear images
+#http://stackoverflow.com/questions/1904865/how-to-scale-pixels-in-an-image-to-adjust-brightness
 
 #this also expects file to be name.frame.ext ie image.1.png
 def reorder(a):
